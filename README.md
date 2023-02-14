@@ -1,5 +1,5 @@
 
-![Header Image](resources/dslogo.png)
+![Header Image](resources/experis_logo.png)
 
 # Cookiecutter for Experis Data Science Template
 
