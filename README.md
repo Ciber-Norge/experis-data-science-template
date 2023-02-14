@@ -1,9 +1,13 @@
-# Cookiecutter Data Science
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+![Header Image](resources/header.png)
+
+# Cookiecutter for Experis Data Science Template
 
 
-#### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
+This Project is forked from (http://drivendata.github.io/cookiecutter-data-science/)
+
+
+#### [Experis Project homepage](https://github.com/Ciber-Norge/experis-data-science-template)
 
 
 ### Requirements to use the cookiecutter template:
@@ -30,15 +34,6 @@ $ conda install cookiecutter
 
 
 [![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
-
-### New version of Cookiecutter Data Science
-------------
-Cookiecutter data science is moving to v2 soon, which will entail using
-the command `ccds ...` rather than `cookiecutter ...`. The cookiecutter command
-will continue to work, and this version of the template will still be available.
-To use the legacy template, you will need to explicitly use `-c v1` to select it.
-Please update any scripts/automation you have to append the `-c v1` option (as above),
-which is available now.
 
 
 ### The resulting directory structure
