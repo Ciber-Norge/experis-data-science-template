@@ -3,6 +3,56 @@
 
 {{cookiecutter.description}}
 
+# Table of Contents
+- [{{cookiecutter.project\_name}}](#cookiecutterproject_name)
+- [Table of Contents](#table-of-contents)
+- [How to use this template](#how-to-use-this-template)
+    - [Template development environment](#template-development-environment)
+      - [Setup using](#setup-using)
+      - [Activate environment](#activate-environment)
+      - [Install Dependencies](#install-dependencies)
+      - [Testing](#testing)
+      - [Linting](#linting)
+  - [Project Organization](#project-organization)
+
+
+# How to use this template
+
+### Template development environment
+To develop this template further you might want to setup a virtual environment
+
+#### Setup using
+```
+cd data-science-template
+python -m venv dst-env
+```
+
+#### Activate environment
+Max / Linux
+```
+source dst-env/bin/activate
+```
+
+Windows
+```
+dst-env\Scripts\activate
+```
+
+#### Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+    
+#### Testing
+To run the template tests, install pytest using pip or conda and then from the repository root run
+ 
+    pytest tests
+
+#### Linting
+To verify that your code adheres to python standards run linting as shown below:
+
+    flake8 --max-line-length=120 *.py hooks/ tests/
 Project Organization
 ------------
 
