@@ -8,9 +8,11 @@
 - [Table of Contents](#table-of-contents)
 - [How to use this template](#how-to-use-this-template)
     - [Template development environment](#template-development-environment)
+      - [Install virtualenv](#install-virtualenv)
       - [Setup using](#setup-using)
       - [Activate environment](#activate-environment)
       - [Install Dependencies](#install-dependencies)
+  - [Develop in the template](#develop-in-the-template)
       - [Testing](#testing)
       - [Linting](#linting)
   - [Project Organization](#project-organization)
@@ -19,7 +21,12 @@
 # How to use this template
 
 ### Template development environment
-To develop this template further you might want to setup a virtual environment
+To develop in the template, you need to setup a virtual environment. This is done using the following steps:
+
+#### Install virtualenv
+````
+python3 -m pip install virtualenv
+````
 
 #### Setup using
 ```
@@ -43,7 +50,10 @@ dst-env\Scripts\activate
 pip install -r requirements.txt
 ```
 
-    
+## Develop in the template
+```
+python -m pip install -e .
+```    
 #### Testing
 To run the template tests, install pytest using pip or conda and then from the repository root run
  
