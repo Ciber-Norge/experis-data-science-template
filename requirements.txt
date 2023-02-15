@@ -2,3 +2,8 @@ mkdocs
 mkdocs-cinder
 cookiecutter
 pytest
+cookiecutter
+flake8
+pytest
+pytest-cookies
+pytest-cov
