@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath(os.path.join('..', '..', 'src')))
 # -- Project information -----------------------------------------------------
 
 project = '{{cookiecutter.project_name}}'
-copyright = 'Equinor'
+copyright = 'Experis Norge'
 author = '{{cookiecutter.project_name}}'
 
 # The full version, including alpha/beta/rc tags
