@@ -6,7 +6,7 @@
     "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '').replace('-', '') }}",
     "mlops_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
     "mlops_compute_name": "cpu-compute",
-    "author": "Experis ML&AI Department",
+    "author_name": "Experis ML&AI Department",
     "open_source_license": ["Not open source", "MIT", "LGPL3", "GPL3"],
     "devops_organisation": ""
 }
