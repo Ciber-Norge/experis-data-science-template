@@ -8,6 +8,6 @@
     "mlops_compute_name": "cpu-compute",
     "author_name": "Experis ML&AI Department",
     "open_source_license": ["Not open source", "MIT", "LGPL3", "GPL3"],
-    "devops_organisation": ""
+    "devops_organisation": "",
     "python_interpreter": "python_interpreter": ["python3", "python"]
 }
