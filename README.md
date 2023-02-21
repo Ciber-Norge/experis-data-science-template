@@ -4,10 +4,13 @@
 # Cookiecutter for Experis Data Science Template
 
 
-This Project is forked from (http://drivendata.github.io/cookiecutter-data-science/)
+This Project is forked from [cookiecutter-data-science](http://drivendata.github.io/cookiecutter-data-science/) and heavily modified to fit the needs of Experis Data Science projects. The original project is a great starting point for Data Science projects and we encourage you to use it. 
+
+This template is also heabily inspired from [Equinors´s Data Science template ](https://github.com/equinor/data-science-template)
 
 
-#### [Experis Project homepage](https://github.com/Ciber-Norge/experis-data-science-template)
+## Contribute
+If you want to contirbute to this template or have any suggestions, please create an issue or a pull request at the [Experis Project homepage](https://github.com/Ciber-Norge/experis-data-science-template)
 
 
 ### Requirements to use the cookiecutter template:
@@ -36,8 +39,7 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
-
+    cookiecutter https://github.com/Ciber-Norge/experis-data-science-template.git
 
 [![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
 
@@ -112,9 +114,6 @@ The directory structure of your new project looks like this:
         └── pipeline         <- pipeline tests
 ```
 
-## Contributing
-
-We welcome contributions! [See the docs for guidelines](https://drivendata.github.io/cookiecutter-data-science/#contributing).
 
 ### Installing development requirements
 ------------
@@ -124,4 +123,4 @@ We welcome contributions! [See the docs for guidelines](https://drivendata.githu
 ### Running the tests
 ------------
 
-    py.test tests
+    pytest tests

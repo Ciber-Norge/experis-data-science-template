@@ -5,8 +5,16 @@
 click
 Sphinx
 coverage
-awscli
 flake8
+scikit-learn
+pandas
+matplotlib
+seaborn
+jupyter
+numpy
+hyperopt
+json
+mlflow
 python-dotenv>=0.5.1
 {% if cookiecutter.python_interpreter != 'python3' %}
 

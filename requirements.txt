@@ -5,15 +5,6 @@ pytest
 flake8
 pytest-cookies
 pytest-cov
-scikit-learn
-pandas
-matplotlib
-seaborn
-jupyter
-numpy
-hyperopt
-json
-mlflow 
 
 
 #remember to verify the version of the packages you are using
