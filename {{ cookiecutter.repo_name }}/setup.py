@@ -30,11 +30,7 @@ test_requirements = [
 setup(
     author='{{cookiecutter.author_name}}',
     name="{{cookiecutter.project_name}}",
-    # version="0.0.1",
-    version_config={
-      "version_format": "{tag}.dev{sha}",
-      "starting_version": "0.0.1"
-    },
+    version="0.0.1",
     description="{{cookiecutter.project_description}}",
     long_description=open('README.md').read(),
     packages=find_packages('src'),
